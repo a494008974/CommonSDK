@@ -55,25 +55,6 @@ public interface RouterHub {
      */
     String SERVICE = "/service";
 
-    /**
-     * 宿主 App 分组
-     */
-    String APP_SPLASHACTIVITY = APP + "/SplashActivity";
-    String APP_MAINACTIVITY = APP + "/MainActivity";
-
-
-    /**
-     * 干货集中营分组
-     */
-    String GANK_SERVICE_GANKINFOSERVICE = GANK + SERVICE + "/GankInfoService";
-    String GANK_HOMEACTIVITY = GANK + "/HomeActivity";
-
-
-    /**
-     * 测试分组
-     */
-    String ZHOU_SERVICE_ZHOUINFOSERVICE = ZHOU + SERVICE + "/ZhouInfoService";
-    String ZHOU_HOMEACTIVITY = ZHOU + "/HomeActivity";
 
     /**
      * TV桌面分组
